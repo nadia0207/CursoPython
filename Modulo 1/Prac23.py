@@ -11,7 +11,7 @@ print("-------------------------------")
 
 # ---------------------------------------
 c = 10
-d = int(input('Ingrese numero: '))
+d = int(input('Ingrese numero D: '))
 if c > d:
     print('C es mayor que D')
 elif c == d: #elif es (else if)
@@ -20,9 +20,15 @@ else:
     print('C es menor que D')
 
 print ('Ya estamos fuera del if')
+print("-------------------------------")
 
-###*********** Aqui me quede 01 Marzo 2025 Pagina 7 del Python Python_Tema5_Parte8_Sentencias-Condicionales_v2
-#Falta el archivo Python_Tema5_Parte10_Ejemplos-Estructuras_v1
+# ---------------------------------------
+# Condicional if en una sola linea no es necesario poner :
+x = 20 if c > d else 30 #Si se cumple la condicion x sera 20 y sino sera 30
+print("el valor de x es" ,x)
+
+
+
 
 
 
