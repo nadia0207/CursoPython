@@ -22,3 +22,4 @@ abcde = sorted(letras)[:5]
 print(abcde)
 print(list(enumerate(abcde))) #devuelve secuencia con sus indices
 print(list(enumerate(abcde,10))) #Podemos decirle en que indice empieza
+

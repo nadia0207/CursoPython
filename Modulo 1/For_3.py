@@ -37,5 +37,3 @@ for a,b in zip(la,lb):
     print(m, end=" ")
 
 
-
-
