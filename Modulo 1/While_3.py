@@ -4,3 +4,5 @@
 a = 5
 while a:
     pass #Presiona CTRL+C para abortar la ejecucion
+
+#NO  EJECUTAR ESTE CODIGO

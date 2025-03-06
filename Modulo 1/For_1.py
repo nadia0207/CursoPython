@@ -14,6 +14,7 @@ print("---------------------------------------------------")
 #--------------------------------------------------
 #Repite el print tantas veces como caracteres hay en el string
 for i in "frases":
-    print("Hola", end=" ")
+    #print("Hola", end=" ")
+    print("Hi ")
 
 
