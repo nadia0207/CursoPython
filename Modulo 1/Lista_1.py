@@ -1,9 +1,9 @@
 """
-La lista es un tipo de colección ordenada y modificable.
+La lista es un tipo de colección ordenada y modificable. Si se pueden duplicar elementos duplicados
 Es decir, una secuencia de valores de cualquier tipo, ordenados y de tamaño
 variable.Se escriben entre corchetes. []
 """
-miLista=["Angel", 43, 667767250]
+miLista=["Angel", 43, 667767250, "Angel"]
 miLista2 = [22, True, "una lista", [1,2]]
 
 # MÉTODOS DE LAS LISTAS

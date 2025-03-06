@@ -1,6 +1,8 @@
 # TUPLAS
 """Una tupla es una colección ordenada e inmutable.
 En Python, las tuplas se escriben entre paréntesis.
+Una vez creada no se puede modificar es como una constatnte
+pero si modificas algo (eliminas o agregas), en automatico crea otra Tupla
 """
 # Declaración de una tupla
 miTupla = ("manzana", "banana", "cereza")
