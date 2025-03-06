@@ -23,6 +23,7 @@ print("---------------------------------------------------------")
 def imprimir(precio, iva = 1.21):
     print(precio * iva)
 
+imprimir(300)
 imprimir(300, 1.08)
 print("---------------------------------------------------------")
 
@@ -35,9 +36,3 @@ varios(1, 2)
 varios(1, 2, 3)
 varios(1, 2, 3, 4)
 
-"""
-También se puede preceder el nombre del último parámetro con **,
-en cuyo caso en lugar de una tupla se utilizaría un diccionario.
-Las claves de este diccionario serían los nombres de los parámetros
-indicados al llamar a la función y los valores del diccionario, los valores
-"""
