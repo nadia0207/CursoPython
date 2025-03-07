@@ -2,7 +2,7 @@
 #usuario de dos maneras: Solicitando los elementos List/Set uno por uno usando los métodos append()/add().
 # Usando los métodos map() y list() / set().
 #-------------------------------
-#Solicitando elementos de List/Set uno por uno
+#(1) Solicitando elementos de List/Set uno por uno
 Lista = list()
 Set = set()
 l = int(input("Introduzca el tamaño de la lista: ")) #3
