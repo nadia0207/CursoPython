@@ -3,17 +3,21 @@
 # Usando los métodos map() y list() / set().
 #-------------------------------
 #Solicitando elementos de List/Set uno por uno
-List = list()
+Lista = list()
 Set = set()
-l = int(input("Introduzca el tamaño de la lista: "))
-s = int(input("Introduzca el tamaño del Set: "))
+l = int(input("Introduzca el tamaño de la lista: ")) #3
+s = int(input("Introduzca el tamaño del Set: ")) #2
 
 print("Introduzca los elementos de la lista:")
-
 for i in range(0, l):
-    list.append(int(input()))
-print("Introduzca los elementos del Set:")
+    Lista.append(int(input()))
 
+print("Introduzca los elementos del Set:")
 for i in range(0, s):
     Set.add(int(input()))
-print(list)
+
+print(Lista)
+print(Set)
+
+#Cuando se ingrese los elementos escribir uno y luego enter
+#asi se ingresara elemento uno por uno
