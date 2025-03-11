@@ -38,4 +38,7 @@ def polinomico(number):
 print(polinomico(5))
 print("---------------------------------------------------------------------")
 
-#------------------POLINOMICO: O(X^c), c>0----------------------------------------
+#------------------LOGARITMICO: O(log x)----------------------------------------
+#No suelen ser muchos. Estos algoritmos indican que el tiempo es menor que 
+# el tamaño de los datos de entrada. No importa indicar la base del logaritmo. 
+# Un ejemplo es una búsqueda dicotómica.
