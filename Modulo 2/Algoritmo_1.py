@@ -1,3 +1,4 @@
+#-------------------CODIGO 1------------------------
 def codigo_1(number): 
     a = 0                             #Instrucciones = 1
     for j in range(1, number+1):      
