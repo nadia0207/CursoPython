@@ -1,4 +1,4 @@
-#----------------------SIN USA SUPER()
+#----------------------SIN USA SUPER()----------------------------------
 #Jerarquía de clases sin usar super(), sobrescribiendo los atributos del padre
 class Padre(): #Creamos la clase Padre
     def __init__(self, ojos, cejas):
