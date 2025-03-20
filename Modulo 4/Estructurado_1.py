@@ -18,6 +18,8 @@ def mostrar_cliente(clientes, dni):
     
 
 # Creamos una función que borra un cliente en una lista a partir del DNI
+#Enumerate se usa cuando quieres recorrer una lista y, al mismo tiempo,
+#obtener tanto el índice como el valor de cada elemento.
 def borrar_cliente(clientes, dni):
     for i,c in enumerate(clientes): # Recorremos la lista con un bucle for, obteniendo tanto el índice (i) como el cliente (c).
         if (dni == c['dni']):
