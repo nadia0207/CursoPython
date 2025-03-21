@@ -27,7 +27,7 @@ class Libro():
     def devolver(self):
         if self.disponible == False:
             self.disponible = True
-            print("Libro devuelto correctamente")
+            print("Libro devuelto con éxito")
         else:
             print("El libro esta disponible")
 
